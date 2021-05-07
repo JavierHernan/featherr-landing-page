@@ -1,0 +1,151 @@
+html {
+  font-size: 36pt;
+}
+nav {
+  display: none;
+}
+#banner {
+  margin-top: 0;
+  height: 17rem;
+  display: block;
+
+}
+#imgIcon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 7em;
+  /* margin-bottom: -1rem; */
+  /* margin-top: 2rem; */
+}
+#bannerText {
+  /* border: 1px solid black; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex; */
+  /* margin-top: 10rem; */
+  /* width: 20rem; */
+}
+#bannerText > h1 {
+  font-size: 2ch;
+  /* border: 1px solid black; */
+}
+#bannerText > h2 {
+  font-size: 1.75ch;
+  /* border: 1px solid black; */
+}
+#clickThis {
+  display: none;
+}
+#home {
+  height: 135vh;
+}
+#buttons {
+    transform: translateY(60%);
+    margin-right: 0;
+    margin-top: 2em;
+    /* top: -23%; */
+    width: 100%;
+    /* font-size: 1ch; */
+}
+#button1, #button2 {
+  font-size: 2ch;
+  border-width: .2em;
+}
+#buttons > #button1 {
+        display: block;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+#buttons > #button2 {
+        display: block;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: .35rem
+    }
+#homeText {
+  /* position: none; */
+  border-width: .25em;
+  padding-left: .75em;
+  padding-right: .75em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  box-sizing: border-box;
+  text-align: center;
+  /* transform: translate(-50%, 10%); */
+  left: 50%;
+  width: 90vw;
+}
+#about {
+  /* height: 100vh; */
+  height: 110vh;
+  /* position: relative; */
+  /* box-sizing: content-box; */
+}
+#imgIcon2 {
+  display: none;
+
+}
+#aboutText1, #aboutText2 {
+  /* height: 50%; */
+  padding: .75em;
+  box-sizing: border-box;
+  width: 90vw;
+  /* font-size: 1.2em; */
+  display: block;
+  top: 27%;
+  left: 50%;
+  transform: translate(4.5%, 10%);
+  border-width: .25em;
+
+  /* text-align: center; */
+  /* position: absolute; */
+
+}
+#aboutText1 {
+  /* top: 90%; */
+}
+#aboutText2 {
+  margin-top: 10%;
+}
+#appExample {
+  display: none;
+}
+
+#contactGrid {
+  display: grid;
+  grid-template-areas:
+  "main main main main"
+  "section section section section"
+  "footer footer footer footer"
+
+  ;
+  grid-template-columns: 1fr;
+  grid-gap: .5em;
+  height: 100vh;
+  margin-top: .75em;
+  margin-left: .5em;
+  margin-right: .5em;
+  margin-bottom: .5em;
+}
+#icons {
+  font-size: 4ch;
+  margin-top: 0;
+  margin-right: .25em;
+}
+.section {
+
+}
+h3 {
+    font-size: 3vh;
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+h4 {
+    font-size: 2.5vh;
+    margin: 1em;
+    text-align: center;
+}
